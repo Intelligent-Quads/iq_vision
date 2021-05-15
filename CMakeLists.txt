@@ -205,5 +205,5 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-add_executable(canny_edge src/canny_edge.cpp)
-target_link_libraries(canny_edge ${catkin_LIBRARIES} ${OpenCV_INCLUDE_DIRS})
+add_executable(canny_edge_sol src/canny_edge_sol.cpp)
+target_link_libraries(canny_edge_sol ${catkin_LIBRARIES} ${OpenCV_INCLUDE_DIRS})
